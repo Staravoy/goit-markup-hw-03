@@ -31,6 +31,11 @@ a {
   margin: 0;
   padding: 0;
 }
+footer {
+  background-color: var(--background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .container {
   max-width: 1200px;
@@ -42,12 +47,11 @@ a {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  border: ;
 }
 
 /* header */
 
-.header {
+.nav-list {
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -270,7 +274,10 @@ a {
   width: 270px;
   margin-bottom: 30px;
 }
-
+.item-back {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .we-name {
   margin-top: 0;
   margin-bottom: 10px;
@@ -279,6 +286,7 @@ a {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  text-align: center;
 }
 
 .we-proffesion {
@@ -287,14 +295,10 @@ a {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--second-color);
+  text-align: center;
 }
 
 /* footer для всіх сторінок*/
-.footer {
-  background-color: var(--background-color);
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 .footer-logo {
   text-decoration: none;
   color: var(--wait);
