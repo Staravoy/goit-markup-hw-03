@@ -76,13 +76,10 @@ footer {
   color: var(--hover-color);
 }
 
-.logo:hover {
-  color: var(--hover-color);
-}
-
+.logo:hover,
 .logo:focus {
   color: var(--hover-color);
-  background-color: var(--wait);
+  background-color: var(--weit);
 }
 
 .nav-list {
@@ -104,7 +101,7 @@ footer {
 }
 
 .nav-link:hover,
-:focus {
+.nav-link:focus {
   color: var(--hover-color);
   background-color: var(--wait);
 }
@@ -132,8 +129,9 @@ footer {
 }
 
 .contacts-contact:hover,
-:focus {
+.contacts-contact:focus {
   color: var(--hover-color);
+  background-color: var(--wait);
 }
 
 /* section baner */
@@ -175,7 +173,7 @@ footer {
 }
 
 .baner-button:hover,
-:focus {
+.baner-button:focus {
   color: var(--second-color);
 }
 
@@ -203,7 +201,7 @@ footer {
 }
 
 .skills-title {
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -257,13 +255,10 @@ footer {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
-
-  margin-bottom: 50px;
 }
 
 .we-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .we-list-item + .we-list-item {
@@ -313,20 +308,18 @@ footer {
   color: var(--hover-color);
 }
 
-.footer-logo:hover {
-  color: var(--hover-color);
-  background-color: var(--second-color);
-}
-
+.footer-logo:hover,
 .footer-logo:focus {
-  color: var(--wait);
+  color: var(--hover-color);
   background-color: var(--second-color);
 }
 
 .footer-adress-list {
   margin-top: 20px;
 }
-
+.footer-link + .footer-link {
+  margin-top: 9px;
+}
 .address-post {
   font-style: normal;
   text-decoration: none;
@@ -348,12 +341,13 @@ footer {
 }
 
 .address-email:hover,
-:focus,
+.address-email:focus,
 .address-tel:hover,
-:focus,
+.address-tel:focus,
 .address-post:hover,
-:focus {
+.address-post:focus {
   color: var(--hover-color);
+  background-color: var(--weit);
 }
 
 /* СТОРІНКА PORTFOLIO */
@@ -371,11 +365,11 @@ footer {
   letter-spacing: 0.03em;
 
   min-width: 73px;
-  padding: 6px;
+  padding: 22 6px;
 }
 
 .buttons-button:hover,
-:focus {
+.buttons-button:focus {
   background-color: var(--hover-color);
   color: var(--wait);
 }
